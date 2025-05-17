@@ -1,0 +1,55 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  images: {
+    domains: [
+      '1000logos.net',
+    'logoeps.com',
+    'identity.stanford.edu',
+    'i.pinimg.com',
+    'static.cdnlogo.com',
+    'www.cam.ac.uk',
+    'oxfordvisit.com',
+    'www.designyourway.net',
+    'seeklogo.com',
+    'download.logo.wine',
+    'images.seeklogo.com',
+    'i0.wp.com',
+    'biocars.uchicago.edu',
+    'fundit.fr',
+    'w7.pngwing.com',
+    'upload.wikimedia.org',
+    'www.harvard.edu',
+    'news.mit.edu',
+    'hebbkx1anhila5yf.public.blob.vercel-storage.com',
+    'www.stanford.edu',
+    'www.ox.ac.uk',
+    'www.caltech.edu',
+    'ethz.ch',
+    'news.uchicago.edu',
+    'www.imperial.ac.uk',
+    'www.u-tokyo.ac.jp',
+    'nus.edu.sg',
+    'english.pku.edu.cn',
+    'study.unimelb.edu.au',
+    'www.utoronto.ca',
+    'www.tsinghua.edu.cn',
+    'www.berkeley.edu',
+    'www.sydney.edu.au',
+    'www.uct.ac.za',
+    'jornal.usp.br',
+    'en.snu.ac.kr',
+    'v0.blob.com',
+    'news.stanford.edu',
+    'www.tsinghua.edu.cn'
+    ],
+    unoptimized: false,
+  },
+};
+
+export default nextConfig;
